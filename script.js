@@ -18,7 +18,7 @@ function sortStr(arr, str) {
 
     for (let i = 0; i < str.length; i++) {
         for (let a = 0; a < arr.length; a++) {
-            if (arr[a][0] === str[i]) {
+            if (arr[a].trim()[0]=== str[i]) {
                 result.push(arr[a]);
                 break;
             }
